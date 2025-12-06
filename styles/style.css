@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --mainDark: #2F3A5A;
+        --mainLight: #FEFAF3;
+        --secondaryDark: #4A5F4F;
+        --secondaryLight: #A9C9FF;
+        --accentLight: #F2C94C;
+    }
+}
+
+.theme-blue {
+    --mainDark: #2F3A5A;
+    --mainLight: #FEFAF3;
+}
+
+.theme-yellow {
+    --mainDark: #4A5F4F;
+    --mainLight: #F2C94C;
+}
+
