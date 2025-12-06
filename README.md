@@ -1,0 +1,1 @@
+Web application where small business owners post about their little problems that they think technology could fix and university/college students take on those projects to help them learn and add to their portfolio.
