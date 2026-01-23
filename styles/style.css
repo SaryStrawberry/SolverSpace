@@ -22,3 +22,7 @@
     --mainLight: #F2C94C;
 }
 
+header img {
+    inline-size: 20%;
+}
+
