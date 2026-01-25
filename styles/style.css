@@ -1,28 +1,31 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-    :root {
-        --mainDark: #2F3A5A;
-        --mainLight: #FEFAF3;
-        --secondaryDark: #4A5F4F;
-        --secondaryLight: #A9C9FF;
-        --accentLight: #F2C94C;
+/*! tailwindcss v4.1.18 | MIT License | https://tailwindcss.com */
+@layer properties;
+.mx-auto {
+  margin-inline: auto;
+}
+.flex {
+  display: flex;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.border {
+  border-style: var(--tw-border-style);
+  border-width: 1px;
+}
+.border-solid {
+  --tw-border-style: solid;
+  border-style: solid;
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
     }
+  }
 }
-
-.theme-blue {
-    --mainDark: #2F3A5A;
-    --mainLight: #FEFAF3;
-}
-
-.theme-yellow {
-    --mainDark: #4A5F4F;
-    --mainLight: #F2C94C;
-}
-
-header img {
-    inline-size: 20%;
-}
-
